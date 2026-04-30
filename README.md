@@ -1,0 +1,2 @@
+# zed
+My zed settings
