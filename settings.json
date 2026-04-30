@@ -1,0 +1,70 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "terminal": {
+    "font_family": "JetBrainsMonoNL Nerd Font Mono"
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5-mini"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "auto_update": false,
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Everforest Dark Medium (blur)",
+  },
+  "languages": {
+    "MATLAB": {
+      "tab_size": 4,
+      "format_on_save": "on",
+      "preferred_line_length": 80,
+      "soft_wrap": "editor_width",
+    },
+    "Python": {
+      "tab_size": 4,
+      "format_on_save": "on",
+      "preferred_line_length": 80,
+      "soft_wrap": "editor_width",
+    },
+  },
+  "lsp": {
+    "matlab-language-server": {
+      "settings": {
+        "installPath": "C:/Program Files/MATLAB/R2024b",
+        "indexWorkspace": true,
+        "matlabConnectionTiming": "onStart",
+        "telemetry": false,
+      },
+    },
+  },
+}
