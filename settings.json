@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent_buffer_font_size": 14.0,
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
   "terminal": {
     "font_family": "JetBrainsMonoNL Nerd Font Mono"
   },
@@ -20,13 +23,14 @@
     "dock": "left"
   },
   "git_panel": {
+    "tree_view": true,
     "dock": "left"
   },
   "agent": {
     "dock": "right",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gpt-5-mini"
+      "model": "claude-haiku-4.5"
     },
     "favorite_models": [],
     "model_parameters": []
@@ -36,8 +40,8 @@
     "trust_all_worktrees": true,
   },
   "vim_mode": true,
-  "ui_font_size": 16,
-  "buffer_font_size": 15,
+  "ui_font_size": 14.0,
+  "buffer_font_size": 14.0,
   "theme": {
     "mode": "dark",
     "light": "One Light",
