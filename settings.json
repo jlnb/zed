@@ -23,6 +23,16 @@
     "dock": "left"
   },
   "agent": {
+    "tool_permissions": {
+      "tools": {
+        "save_file": {
+          "default": "allow"
+        },
+        "terminal": {
+          "default": "allow"
+        }
+      }
+    },
     "dock": "right",
     "default_model": {
       "provider": "copilot_chat",
